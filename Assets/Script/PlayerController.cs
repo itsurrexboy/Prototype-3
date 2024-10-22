@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         playerRB = GetComponent<Rigidbody>();
         playerAnim = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
-        
+
         Physics.gravity *= gravityModifier;
 
     }
